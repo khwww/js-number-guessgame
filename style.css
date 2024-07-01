@@ -1,0 +1,102 @@
+body {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nanum Pen Script", cursive;
+  background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5");
+}
+
+.container {
+  border: 10px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(247, 243, 242, 0.9);
+  padding: 20px;
+}
+
+.pre-title {
+  font-size: 5vw;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+.title {
+  font-size: 7vw;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.highlight {
+  color: crimson;
+}
+
+.main-img {
+  width: 30vw;
+  height: auto;
+}
+
+.result-text {
+  font-size: 5vw;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 1.5vw;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.button-style {
+  height: 50px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.button-reset {
+  height: 50px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 48rem) {
+  .pre-title {
+    font-size: 10vw;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .sub-title {
+    font-size: 11vw;
+  }
+  .form-control {
+    font-size: 5vw;
+    max-width: 300px;
+    margin-right: 0px;
+  }
+  .main-img {
+    width: 60vw;
+  }
+  .button-style {
+    height: 40px;
+    width: 80px;
+    font-size: 5vw;
+  }
+  .button-reset {
+    font-size: 5vw;
+    width: 80px;
+    height: 40px;
+  }
+}
