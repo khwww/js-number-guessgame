@@ -6,6 +6,7 @@ let resetButton = document.getElementById("reset-button");
 let chances = 3;
 let gameOver = false;
 let chanceArea = document.getElementById("chance-area");
+let answerArea = document.getElementById("answer-area");
 let history = [];
 
 playbutton.addEventListener("click", play);
@@ -17,6 +18,7 @@ userInput.addEventListener("focus", function () {
 function pickRandomNum() {
   computerNum = Math.floor(Math.random() * 100) + 1;
   console.log("정답", computerNum);
+  answerArea.textContent = `정답: ${computerNum}`;
 }
 
 function play() {
